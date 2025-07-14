@@ -17,16 +17,24 @@
     background-color: lightyellow;
 }
 .main-chat-wrapper {
-    flex: 1;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    overflow: hidden;
+    align-items: center;
+    height: 100%;
+    flex: 1;
 }
-.main-right-scrollable {
+.scroll-wrapper {
     flex: 1;
     overflow-y: auto;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;  
+}
+.main-right-scrollable {
+    width: 800px;
     padding: 20px;
+    box-sizing: border-box;
 }
 .main-right-input {
     position: sticky;

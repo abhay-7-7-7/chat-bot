@@ -2,10 +2,9 @@ body {
     height: 100%;
     overflow: hidden;
 }
-h1 {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 2000px;
+.hello h1 {
+    padding-bottom: 200px;
+    
 }
 .main-block {
     display: flex;
