@@ -1,0 +1,13 @@
+body {
+    height: 100%;
+    overflow: hidden;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2000px;
+}
+.main-block {
+    display: flex;
+    height: 100vh;
+}

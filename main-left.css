@@ -1,0 +1,23 @@
+
+
+.main-left {
+    width: 300px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+.main-left-fixed {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 1;
+    background-color: lightgreen;
+}
+
+
